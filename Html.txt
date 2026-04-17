@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Sorout | ECE Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MS</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Mohit Sorout</h1>
+        <p>ECE Student @ Manav Rachna | Faridabad, India</p>
+        <div id="typed-text"></div> </section>
+
+    <section id="skills">
+        <h2>Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><h3>Hardware</h3><p>Circuit Design, AutoCAD, Electronics</p></div>
+            <div class="skill-card"><h3>Software</h3><p>C++, MATLAB, Arduino</p></div>
+            <div class="skill-card"><h3>Web</h3><p>HTML5, CSS3, JavaScript</p></div>
+        </div>
+    </section>
+
+    <section id="cpp-showcase">
+        <h2>C++ Logic Exhibit</h2>
+        <pre><code>
+// A snippet of my C++ Logic for Signal Processing
+void analyzeSignal(float freq) {
+    if (freq > 1000) {
+        cout << "High Frequency Detected";
+    }
+}
+        </code></pre>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
